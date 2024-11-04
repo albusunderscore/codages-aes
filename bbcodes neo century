@@ -1,0 +1,14 @@
+/* ---- BBCODES ---- */
+
+bblur {font-weight: 800; filter: blur(1px);}
+blur {filter: blur(.75px);}
+blurr {filter: blur(1.25px)}
+u1, u2 {color: var(--contrast)} u1 {box-shadow: inset 0 -5.5px 0 var(--accent)} u2 {box-shadow: inset 0 -5.5px 0 var(--accent4)}
+b1, b2, b3 {font-weight: 800; text-decoration: none;}
+b1 {color: var(--accent);} b2 {color: var(--accent4);} b3 {background: -webkit-linear-gradient(55deg, var(--accent), var(--accent4));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+c1, c2, c3 {text-decoration: none;}
+c1 {color: var(--accent);} c2 {color: var(accent4);} c3 {background: -webkit-linear-gradient(55deg, var(--accent), var(--accent4));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+i1, i2, i3 {font-style: italic;text-decoration: none;}
+i1 {color: var(--accent);} i2 {color: var(--accent4);} i3 {background: -webkit-linear-gradient(55deg, var(--accent), var(--accent4));-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+tx {font-family: Courier New; letter-spacing: 2px}
+.NC_bulle {width: 60px; height: 60px; object-fit: cover; border-radius: 50%; outline: 1px solid var(--accent); outline-offset: 2px;}
